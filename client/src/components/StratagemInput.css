@@ -1,0 +1,12 @@
+.stratagem_inputs {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    gap: .5em;
+}
+
+.input_arrow > img {
+    width: 3em;
+    height: 3em;
+}

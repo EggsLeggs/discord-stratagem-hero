@@ -1,7 +1,4 @@
-# Discord Buildathon 2024 Project
-## InfiniteCraft Discord Activity
+# Discord Stratagem Hero
+Made with <3 by Amory
 
-The application is a open source implementation of InfiniteCraft, a game by neal, in Discord's new activities.
-Original Game: https://neal.fun/infinite-craft/
-
-⚠️ Currently there is no guidance to running this yourself, it's pretty self explanitary but please don't raise issues relating to self-hosting
+Icons are sourced from [Flu on Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3161075951) and [nvigneux on GitHub](https://github.com/nvigneux/Helldivers-2-Stratagems-icons-svg)

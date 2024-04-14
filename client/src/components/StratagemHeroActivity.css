@@ -1,0 +1,67 @@
+.game_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+    background-color: #131419;
+    color: white;
+    background-image: url('/src/images/super_earth_logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    overflow: hidden;
+}
+
+.stratagem_name {
+  background-color: #ffee00;
+  color: black;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.3em;
+  padding: 0.3em 0;
+}
+
+
+.stratagem_icons {
+  display: flex;
+  margin-left: calc(50% - 2.25em);
+  align-items: center;
+  gap: 1em;
+  width: 100vw;
+  padding: 0.3em 0;
+  overflow: hidden;
+}
+
+.stratagem_icons > img {
+  width: 4.5em;
+  height: 4.5em;
+}
+
+.stratagem_icons > img:not(:first-child) {
+  opacity: 0.4;
+}
+
+.game_stats {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5em 2em;
+}
+
+.game_stats > .stat_description {
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 0%;
+}
+
+.game_stats > .stat_value {
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 10%;
+  color: #ffee00;
+}
